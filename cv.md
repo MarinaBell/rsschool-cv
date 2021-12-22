@@ -43,4 +43,12 @@ function century(year) {
   }
   }
   ```
-  
+  ## **Education** ##
+* Samara State University of Architecture and Civil Engineering, Samara (Architect)
+* Samara State Regional Academy of Nayanova (Professional communication translator)
+
+## **Courses** ##
+* HTML Academy (HTML and CSS and Javascript training simulators)
+* JavaScript Manual on learnjavascript.ru (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* CS50 Video Course (in progress)
