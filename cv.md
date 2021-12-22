@@ -52,3 +52,8 @@ function century(year) {
 * JavaScript Manual on learnjavascript.ru (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 * CS50 Video Course (in progress)
+
+## **Languages** ##
+* English - B1 INTERMEDIATE/B2 UPPER INTERMEDIATE (according to the online test at www.efset.org). \
+I had language practice in Academy with a teacher from England and speaking practice during my journeys to Europe and Israel.
+* Russian - Native
