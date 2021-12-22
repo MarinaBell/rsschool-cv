@@ -16,3 +16,31 @@ I worked as an architect and a designer for 6 years. I designed exclusive exhibi
   * perseverance
   * creative thinking
   * constantly engaged in self-education
+
+  ## **Skills** ##
+* HTML
+* CSS
+* Bootstrap
+* Javascript 
+* Git
+* Editors: VSCode, Sublime Text, Webstorm
+* Python basics
+* Adobe Photoshop
+* Corel Draw
+* Adobe After Effects
+
+## **Code Example** ##
+```
+function century(year) {
+  a = String(year);
+  lastTwoChar = a.slice(-2);
+  console.log(lastTwoChar)
+  if (lastTwoChar == 0) {
+    return((Math.floor (year/100)));
+  }
+  else  {
+    return((Math.floor (year/100))+1);
+  }
+  }
+  ```
+  
