@@ -11,13 +11,13 @@ I worked as an architect and a designer for 6 years. I designed exclusive exhibi
 2 years ago I became interested in animation and motion design and I also developed the 3d-design and UI-design for interactive applications in museums.  
 10 months ago I started learning programming and layout. I want to gain knowledge in this spere. Now my goal is to become a Frontend Developer.
 
- **My strengths:**
+ ## **My strengths:** ##
   * Fast learning
   * perseverance
   * creative thinking
   * constantly engaged in self-education
 
-  ## **Skills** ##
+## **Skills** ##
 * HTML
 * CSS
 * Bootstrap
@@ -43,7 +43,7 @@ function century(year) {
   }
   }
   ```
-  ## **Education** ##
+## **Education** ##
 * Samara State University of Architecture and Civil Engineering, Samara (Architect)
 * Samara State Regional Academy of Nayanova (Professional communication translator)
 
