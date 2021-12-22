@@ -1,5 +1,12 @@
 body {
     background-color: rgb(20, 21, 48);
+    font-family: Roboto;
     font-size: 18px;
     color: white;
     }
+
+.myskills {
+    font-family: Roboto;
+    font-size: 20px;
+    color: red;
+}
