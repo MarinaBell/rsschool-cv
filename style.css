@@ -1,12 +1,286 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
+    src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+
 body {
-    background-color: rgb(20, 21, 48);
+   
+    background-color:rgb(116, 118, 187);
     font-family: Roboto;
     font-size: 18px;
     color: white;
-    }
+}
 
-.myskills {
-    font-family: Roboto;
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    background-color: rgb(98, 100, 159);
+}
+
+.header_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* .header_nav {
+    display: flex;
+    max-width: 1200x;
+} */
+
+.header_list {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-nav {
+    width: 1200px;
+}
+.header_link {
+    text-decoration: none;
+    color:white;
     font-size: 20px;
-    color: red;
+}
+
+.header_link:hover {
+    color: crimson;
+    text-decoration: underline;
+    transition: 00.3s;
+}
+
+.header_link:active {
+    color:red
+}
+.header_link :last-child {
+    margin-right: 20px;
+}
+.all-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+}
+
+.left-side {
+    width: 400px;
+    height: 2200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#aboutme {
+    text-align: left;
+    color: white;
+}
+.about_me {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.name_photo_wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.photo-container {
+    width: 360px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.photo {
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.name {
+    /* height: 305px; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+ h1 {
+     font-size: 30px;
+     color: black;
+     text-align: center;
+ }
+
+ h2 {
+    font-size: 22px;
+    color: black;
+    text-align: left;
+ }
+
+ .description-header {
+     margin-top: 0px;
+ }
+
+ .skills {
+     color: rgb(20, 21, 48);
+ }
+
+ .skills-list {
+     padding-left: 0px;
+ }
+ .right-side {
+    width: 800px;
+    height: 2200px;
+    /* background-color:rgb(116, 118, 187); */
+    background-color: rgb(20, 21, 48);
+    padding: 20px;
+
+     
+ }
+ .about_me {
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+   
+ }
+/* 
+ .code_example {
+    max-width: 800px;
+    margin: 0 auto;
+ } */
+
+
+
+.projects {
+    margin-top: 30px;
+}
+
+.line {
+    width: 760px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.line-short {
+    width: 360px;
+    height: 2px;
+    background-color: rgb(20, 21, 48);
+    margin-bottom: 20px;
+}
+.projects_links {
+    display: grid;
+    width: 760px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    /* background-color: white; */
+}
+
+.project {
+    width: 350px;
+}
+.museum, .momentum, .cssMemSlider, .lorin_register {
+    max-width: 350px;
+    margin: 0 auto;
+    /* border-radius: 10px; */
+}
+
+.project_text {
+    text-align: left;
+    line-height: 1.5;
+}
+.description {
+    background-color: rgb(156, 4, 27);
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+/* .museum, .momentum, .cssMemSlider, .lorin_register:hover {
+    transform: translate(-30px, 0) scale(1);
+    transition: all 0.3s ease-in-out;
+
+} */
+ .contacts {
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+
+ .contact {
+     background-color: rgb(98, 100, 159);
+
+ }
+
+ .contacts2 {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgb(98, 100, 159);
+   
+ }
+ 
+ .footer-phone {
+     text-decoration: none;
+     color: #ffffff;
+ }
+
+ .footer-email{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-link {
+    color: #ffffff;
+    
+}
+
+.footer-link:hover {
+    color: crimson;
+    text-decoration: underline;
+    transition: 00.3s;
+}
+
+.footer-container {
+    max-width: 1200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.contact-link {
+    color: rgb(156, 4, 27);
 }
