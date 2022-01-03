@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://MarinaBell.github.io/rsschool-cv/
