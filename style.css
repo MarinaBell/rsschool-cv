@@ -819,7 +819,7 @@ body {
      color: rgb(20, 21, 48);
  }
 
- .contacts2 {
+ .contacts-sidebar {
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
@@ -833,7 +833,7 @@ body {
  }
  
  @media (max-width: 768px) {
-    .contacts2 {
+    .contacts-sidebar {
         width: 100%;
         margin: 0 auto;
         justify-content: space-between;
@@ -848,13 +848,13 @@ body {
 }
 
 @media (max-width: 375px) {
-    .contacts2 {
+    .contacts-sidebar {
         width: 100%;
     }
 }
 
 @media (max-width: 320px) {
-    .contacts2 {
+    .contacts-sidebar {
         width: 100%;
     }
 }
