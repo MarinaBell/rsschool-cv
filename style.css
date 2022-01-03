@@ -22,8 +22,16 @@ body {
 .container_for_all {
     max-width: 1200px;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     
+}
+
+@media (max-width: 1024px) {
+    .container_for_all{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -55,6 +63,13 @@ body {
    
 }
 
+@media (max-width: 1024px) {
+    .all-container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 768px) {
     .all-container{
         max-width: 768px;
@@ -83,6 +98,13 @@ body {
     box-shadow: 0px 10px 24px 10px rgba(63, 46, 46, 0.2);
 }
 
+@media (max-width: 1024px) {
+    .shadow-container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 768px) {
     .shadow-container{
         max-width: 768px;
@@ -107,8 +129,16 @@ body {
 
 .wrapper {
     max-width: 1200px;
+    margin: 0 auto;
     height: 80px;
     background-color: rgb(98, 100, 159);
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -138,14 +168,18 @@ body {
     flex-wrap: wrap;
     margin: 0 auto;
     align-content: center;
-
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    
-    
-   
+ 
+}
+
+@media (max-width: 1024px) {
+    .header_wrapper{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -170,6 +204,7 @@ body {
 }
 
 .header_list {
+    list-style: none;
     max-width: 1160px;
     display: flex;
     height: 80px;
@@ -181,6 +216,13 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     
+}
+
+@media (max-width: 1024px) {
+    .header_list{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -206,21 +248,46 @@ body {
     margin-left: 70px;
 }
 
+@media (max-width: 1024px) {
+    .header_item {
+        margin-left: 50px;
+    }
+}
+
 @media (max-width: 768px) {
     .header_item {
         margin-left: 25px;
     }
 }
 
+/* .header_nav {
+    width: 100%;
 
-.header-nav {
-    max-width: 1200px;
-}
+} */
+
+/* .header_nav {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 10;
+    color: #83898F;
+    padding: 20px;
+    transform:translateX(100%);
+} */
 
 .header_link {
     text-decoration: none;
     color:white;
     font-size: 20px;
+}
+
+@media (max-width: 1024px) {
+    .header_link{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -229,7 +296,7 @@ body {
     }
 }
 
-.header_link:hover {
+.header_link:hover, .header_link:focus, .header_link:active   {
     color: crimson;
     text-decoration: underline;
     transition: 00.3s;
@@ -238,9 +305,11 @@ body {
 .header_link:active {
     color:red
 }
+
 .header_link :last-child {
     margin-right: 20px;
 }
+
 .all-wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -254,13 +323,20 @@ body {
     position: relative;
 }
 
-@media (max-width: 768px) {
-    .header_burger{
+@media (max-width: 1024px) {
+    .header_burger {
         display: none;
     }
 }
+
+@media (max-width: 768px) {
+    .header_burger {
+        display: none;
+    }
+}
+
 @media (max-width: 375px) {
-    .header_burger{
+    .header_burger {
     display: block;
     width: 22px;
     height: 12px;
@@ -315,6 +391,15 @@ body {
     }
 }
 
+/*Конец стилей header*/
+
+@media (max-width: 1024px) {
+    .all-wrapper{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 768px) {
     .all-wrapper{
         max-width: 768px;
@@ -330,7 +415,6 @@ body {
         flex-direction: column;
     }
 }
-
 
 @media (max-width: 320px) {
     .all-wrapper{
@@ -348,11 +432,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+@media (max-width: 1024px) {
+    .left-side {
+        max-width: 33%;
+        padding: 20px;
+        height: 2160px;
+    }
 }
 
 @media (max-width: 768px) {
-    .left-side{
+    .left-side {
         max-width: 39%;
         padding: 20px;
         height: 3200px;
@@ -360,14 +451,14 @@ body {
 }
 
 @media (max-width: 375px) {
-    .left-side{
+    .left-side {
         max-width: 100%;
         height: 750px;
     }
 }
 
 @media (max-width: 320px) {
-    .left-side{
+    .left-side {
         max-width: 100%;
         height: 750px;
         padding: 10px;
@@ -383,12 +474,17 @@ body {
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .about_me {
         max-width: 100%;
     }
 }
 
+@media (max-width: 768px) {
+    .about_me {
+        max-width: 100%;
+    }
+}
 
 @media (max-width: 375px) {
     .about_me {
@@ -404,7 +500,6 @@ body {
     }
 }
 
-
 .name_photo_wrapper {
     max-width: 400px;
     margin: 0 auto;
@@ -413,6 +508,12 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+    .name_photo_wrapper{
+        max-width: 250px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -426,6 +527,15 @@ body {
     display: flex;
     margin: 0 auto;
     justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    .photo-container {
+        width: 250px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -459,6 +569,12 @@ body {
     width: 300px;
     border-radius: 50%;
     margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+    .photo{
+        max-width: 250px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -525,6 +641,14 @@ body {
  .skills {
      color: rgb(20, 21, 48);
  }
+
+ @media (max-width: 1024px) {
+    .skills{
+        max-width: 100%;
+        /* padding: 10px; */
+    }
+}
+
 
  @media (max-width: 768px) {
     .skills{
@@ -666,6 +790,15 @@ body {
     height: 2px;
     background-color: rgb(20, 21, 48);
     margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+    .line-short {
+        width: 100%;
+        height: 2px;
+        background-color: rgb(20, 21, 48);
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -821,6 +954,21 @@ body {
     background-color: white;
  }
  
+ @media (max-width: 1024px) {
+    .contacts-sidebar {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+        background-color: white;
+    }
+}
+
  @media (max-width: 768px) {
     .contacts-sidebar {
         width: 100%;
