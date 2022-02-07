@@ -777,7 +777,9 @@ body {
     width: 300px;
     border-radius: 50%;
     margin-top: 30px;
+    transition: 1s;
 }
+
 
 @media (max-width: 1024px) {
     .photo{
@@ -1132,12 +1134,13 @@ body {
     }
 }
 
-.museum, .momentum, .cssMemSlider, .login_register {
+.portfolio, .momentum, .cssMemSlider, .login_register {
     max-width: 100%;
     margin: 0 auto;
+    transition: 1s;
 }
 
-.museum, .momentum, .cssMemSlider, .login_register :hover {
+.portfolio:hover , .momentum:hover, .cssMemSlider:hover , .login_register:hover {
     cursor: pointer;
 }
 
