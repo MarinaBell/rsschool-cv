@@ -903,7 +903,7 @@ body {
  }
  .right-side {
     max-width: 67%;
-    height: 2200px;
+    min-height: 2500px;
     background-color: rgb(20, 21, 48);
     padding: 20px;
  }
@@ -1134,32 +1134,35 @@ body {
     }
 }
 
-.portfolio, .momentum, .cssMemSlider, .login_register {
+.picture {
     max-width: 100%;
     margin: 0 auto;
     transition: 1s;
+    border-radius: 5px;
 }
 
-.portfolio:hover , .momentum:hover, .cssMemSlider:hover , .login_register:hover {
+
+.picture:hover {
     cursor: pointer;
 }
 
+
 @media (max-width: 768px) {
-    .museum, .momentum, .cssMemSlider, .login_register  {
+    .picture  {
     max-width: 100%;
     margin: 0 auto;
     }
 }
 
 @media (max-width: 375px) {
-    .museum, .momentum, .cssMemSlider, .login_register  {
+    .picture  {
     max-width: 100%;
     margin: 0 auto;
     }
 }
 
 @media (max-width: 320px) {
-    .museum, .momentum, .cssMemSlider, .login_register  {
+    .picture  {
     max-width: 100%;
     margin: 0 auto;
     }
@@ -1253,6 +1256,13 @@ body {
     }
 }
 
+.education-list,
+.courses-list,
+.languages-list {
+    list-style: none;
+
+}
+
  .footer-phone, .footer-email  {
      text-decoration: none;
      color: #ffffff;
@@ -1295,8 +1305,8 @@ body {
 }
 
 .hljs {
-    max-width: 760px;
-    text-align: left;
+    text-align: center;
+    padding: 0;
 }
 
 @media (max-width: 768px) {
